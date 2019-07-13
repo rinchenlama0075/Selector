@@ -23,8 +23,10 @@ selectShape = (shapeName)=>{
             <div className="navbar">Selected: <span>{this.state.selectedShape}</span></div>
             <div className="shape-list">
                 <Shape shape="square" selectShape={this.selectShape}/>
-                <Shape shape="circle" selectShape={this.selectShape}/>
+                <Shape shape="circle" selectShape={this.selectShape} />
                 <Shape shape="triangle" selectShape={this.selectShape}/>
+               
+               
 
             </div>
             </div>
